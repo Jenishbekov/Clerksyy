@@ -1,0 +1,27 @@
+.production{
+    background-color: $color-green;
+    &__title{
+        @include font($color-title,600,48px,$font-Noto);
+        text-align:center;
+        padding: 66px 0 68px;
+    }
+}
+.educates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__text{
+        @include font($color-title,normal,18px,$font-Noto);
+        text-align: center
+    }
+    &__undertext{
+        @include font($color-title,normal,18px,$font-Noto);
+        margin-bottom: 157px;
+        text-align: center;
+    }
+    &__images{
+        margin-bottom: 27px;
+    }
+}

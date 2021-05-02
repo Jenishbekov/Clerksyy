@@ -1,0 +1,54 @@
+.together{
+    background-color: $color-white;
+    &__position{
+        align-items: center;
+        padding-top: 127px
+    }
+    &__title{
+        @include font($color-green,600,48px,$font-Josefin);
+        width: 400px;
+    }
+    &__text{
+        @include font($color-green,normal,18px,$font-Noto);
+        width: 379px;
+        margin-top: 27px;
+    }
+    &__title2{
+        @include font($color-green,600,48px,$font-Josefin);
+        text-align: center;
+        margin-top: 115px;
+    }
+    &__text2{
+        @include font($color-green,normal,18px,$font-Noto);
+        margin-top: 26px;
+        text-align: center;
+    }
+    &__right{
+        margin-top: 18px;
+        background-color: $color-title;
+        padding:50px ;
+        .right{
+            &__title{
+                @include font($color-green,500,40px,$font-Noto);
+                width: 250px;
+            }
+            &__item{
+                margin-top: 23px;
+            }
+            &__part{
+                align-items: center;
+                display:flex;
+                padding: 12px;
+            }
+            &__text{
+                @include font($color-green,normal,16px,$font-Noto);
+            }
+            &__svg{
+                margin-right:15px;
+            }
+            &__image{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

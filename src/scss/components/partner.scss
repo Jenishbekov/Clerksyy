@@ -1,0 +1,12 @@
+.partner{
+    background-color:  #E5E5E5;
+    &__title{
+        @include font($color-green,600, 48px,$font-Josefin);
+        text-align: center;
+    }
+    &__logo{
+        justify-content: space-between;
+        margin-top: 70px;
+        padding-bottom: 121px;
+    }
+}

@@ -1,0 +1,21 @@
+.employees{
+    background-color: #F2EFE6;
+    &__title{
+        @include font($color-green,600,48px,$font-Josefin);
+        width: 800px;
+        text-align: center;
+        margin: auto;
+        padding-top: 120px
+        
+    }
+    &__text{
+        @include font($color-green,normal,18px,$font-Noto);
+        width: 760px;
+        text-align: center;
+        margin: auto;
+        padding-top: 27px;
+    }
+    &__image{
+        margin: 2px 0 130px;
+    }
+}

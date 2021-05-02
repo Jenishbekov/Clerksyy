@@ -1,0 +1,24 @@
+.easy{
+    background-color: $color-bg;
+    &__title{
+        @include font($color-green,normal,47px,$font-Josefin);
+        text-align: center;
+        padding-top: 114px;
+    }
+    &__text{
+        @include font($color-green,normal,18px,$font-Noto);
+        text-align: center;
+        margin-top: 27px;
+    }
+    &__description{
+        @include font($color-green,normal,18px,$font-Noto);
+        width: 260px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    &__number{
+        @include font($color-green,500,28px,$font-Josefin);
+        text-align: center;
+        margin-top: 13px;
+    }
+}
